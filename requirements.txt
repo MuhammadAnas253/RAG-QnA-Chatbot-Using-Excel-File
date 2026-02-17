@@ -1,0 +1,26 @@
+# Core
+langchain
+langchain-community
+langchain-openai
+openai
+
+# Vector Store
+faiss-cpu
+
+# Embeddings
+sentence-transformers
+
+# Document Loaders
+pypdf
+python-docx
+unstructured
+
+# Text Processing
+tiktoken
+
+# Environment
+python-dotenv
+
+
+
+

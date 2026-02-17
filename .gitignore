@@ -1,0 +1,74 @@
+
+# Python General
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Environment Variables (IMPORTANT)
+
+.env
+.env.*
+*.env
+
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+
+
+# Logs
+
+*.log
+
+
+# IDE Files
+
+.vscode/
+.idea/
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+
+# Model Files (Large Files)
+*.pt
+*.pth
+*.bin
+*.ckpt
+
+
+# Vector Databases (RAG Specific)
+
+faiss_index/
+chroma/
+db/
+vectorstore/
+*.faiss
+
+
+# Hugging Face Cache
+
+.cache/
+huggingface/
+hf_cache/
+
+
+# Streamlit
+
+.streamlit/secrets.toml
+
+# Data Files (Optional - if large/private)
+
+data/
+datasets/
+*.csv
+*.xlsx
